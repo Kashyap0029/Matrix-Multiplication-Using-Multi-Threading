@@ -5,6 +5,17 @@ This project evaluates the performance of multithreading in matrix multiplicatio
 
 ---
 
+## 🧠 What is Multithreading?
+Multithreading is a technique where multiple threads (smaller units of a process) run concurrently within a program. It allows tasks to be divided and executed in parallel, improving performance for computationally intensive operations.
+
+### Why use it here?
+Matrix multiplication is a CPU-intensive task. By distributing multiple matrix multiplications across threads, we can:
+- Reduce execution time  
+- Utilize CPU resources more efficiently  
+- Process multiple operations simultaneously
+
+---
+
 ## Configuration
 - Matrix Size: **1000 × 1000**
 - Number of Matrices: **500**
@@ -25,10 +36,12 @@ This project evaluates the performance of multithreading in matrix multiplicatio
 ## Graphs
 
 ### Execution Time vs Threads
-![Execution Time](graphs/time_vs_threads.png)
+![Execution Time](<img width="584" height="455" alt="image" src="https://github.com/user-attachments/assets/cf61b48f-9d04-4585-b5e4-8db5e381d226" />
+)
 
 ### CPU Usage vs Threads
-![CPU Usage](graphs/cpu_vs_threads.png)
+![CPU Usage](<img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/4cb25b16-fd66-44b9-83be-b5466a0f2e16" />
+)
 
 ---
 
@@ -61,3 +74,16 @@ This project evaluates the performance of multithreading in matrix multiplicatio
 ## 🛠️ Installation
 ```bash
 pip install numpy matplotlib psutil
+
+
+
+## 🧠 What is Multithreading?
+Multithreading is a technique where multiple threads (smaller units of a process) run concurrently within a program. It allows tasks to be divided and executed in parallel, improving performance for computationally intensive operations.
+
+### Why use it here?
+Matrix multiplication is a CPU-intensive task. By distributing multiple matrix multiplications across threads, we can:
+- Reduce execution time  
+- Utilize CPU resources more efficiently  
+- Process multiple operations simultaneously  
+
+
