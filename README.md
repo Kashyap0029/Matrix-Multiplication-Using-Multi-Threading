@@ -5,7 +5,7 @@ This project evaluates the performance of multithreading in matrix multiplicatio
 
 ---
 
-## 🧠 What is Multithreading?
+## What is Multithreading?
 Multithreading is a technique where multiple threads (smaller units of a process) run concurrently within a program. It allows tasks to be divided and executed in parallel, improving performance for computationally intensive operations.
 
 ### Why use it here?
@@ -47,7 +47,7 @@ Matrix multiplication is a CPU-intensive task. By distributing multiple matrix m
 
 ## Results & Insights
 
-### ⏱ Execution Time
+### Execution Time
 - Sharp decrease in time from **1 to ~5 threads**
 - Minimum execution time achieved around **6–10 threads**
 - After that, performance stabilizes with **no major improvement**
