@@ -70,7 +70,3 @@ Matrix multiplication is a CPU-intensive task. By distributing multiple matrix m
 - Multithreading improves speed but has **diminishing returns**
 
 ---
-
-## 🛠️ Installation
-```bash
-pip install numpy matplotlib psutil
