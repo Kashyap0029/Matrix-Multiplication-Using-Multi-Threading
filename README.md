@@ -74,16 +74,3 @@ Matrix multiplication is a CPU-intensive task. By distributing multiple matrix m
 ## 🛠️ Installation
 ```bash
 pip install numpy matplotlib psutil
-
-
-
-## 🧠 What is Multithreading?
-Multithreading is a technique where multiple threads (smaller units of a process) run concurrently within a program. It allows tasks to be divided and executed in parallel, improving performance for computationally intensive operations.
-
-### Why use it here?
-Matrix multiplication is a CPU-intensive task. By distributing multiple matrix multiplications across threads, we can:
-- Reduce execution time  
-- Utilize CPU resources more efficiently  
-- Process multiple operations simultaneously  
-
-
