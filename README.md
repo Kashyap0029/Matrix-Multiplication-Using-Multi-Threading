@@ -40,8 +40,8 @@ Matrix multiplication is a CPU-intensive task. By distributing multiple matrix m
 
 
 ### CPU Usage vs Threads
-![CPU Usage](<img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/4cb25b16-fd66-44b9-83be-b5466a0f2e16" />
-)
+![CPU Usage]<img width="562" height="455" alt="CPU Usage vs Threads" src="https://github.com/user-attachments/assets/4e1ba9e6-7c9f-4947-8026-bf63fb860a46" />
+
 
 ---
 
