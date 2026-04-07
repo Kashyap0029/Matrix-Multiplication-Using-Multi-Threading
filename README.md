@@ -64,7 +64,7 @@ Matrix multiplication is a CPU-intensive task. By distributing multiple matrix m
 
 ---
 
-## Key Insight
+## Key Insights
 - Best performance occurs **around optimal thread range (6–10 threads)**  
 - Increasing threads beyond this does **not guarantee better performance**  
 - Multithreading improves speed but has **diminishing returns**
